@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* HEADER NAVBAR */
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.logo{
+    display: flex;
+    font-size: 30px;
+}
+
+.logo p{
+    display: flex;
+    align-items: center;
+}
+
+.logo_lista{
+    display: flex;
+    align-items: center;
+}
+
+.logo_lista ul{
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+}
+
+.logo_lista ul a{
+    text-decoration: none;
+}
+
+.logo img{
+    padding-left: 20px;
+    width: 80px;
+}
+
+
+/* MAIN */
+
+.main_barberia{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(./imagenes/fondoBarberia.jpeg);
+    background-size: cover;
+}
+
+.main_contenido{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 180px;
+}
+
+.main_contenido 
+
+
+.main_barberia img{
+    width: 100%;
+}
+
+
+/* Servicios */
+
+.servicios{
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 100px;
+
+}
+
+.servicios img{
+    border-radius: 20px;
+}
+
+.servicios_titulo{
+    text-align: center;
+    font-size: 35px;
+}
+
+.servicios_imagenes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+    padding: 25px 35px;
+    
+}
+
+.servicios_cabello,
+.servicios_barba,
+.servicios_completo {
+    border: 5px solid #000;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px 20px;
+}
+
+.servicios_cabello:hover,
+.servicios_barba:hover,
+.servicios_completo:hover {
+    border: 5px solid burlywood;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Footer  */
+
+footer{
+    background-image: url("./imagenes/bg.jpg");
+    padding: 35px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+footer img{
+    padding: 0 25px;
+    width: 150px;
+}
+
+.footer_lista{
+    
+}
+
+.footer_lista a{
+    color: white;
+    font-size: 25px;
+    padding: 15px 0;
+}
+
+.copyright{
+    color: #fff;
+    text-align: center;
+}
+
+.footer_iconos{
+    display: inline-block;
+}
+
+.footer_iconos a{
+    color: white;
+    font-size: 35px;
+    padding: 0px 20px;
+}
