@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contacto.css">
+    <script src="https://kit.fontawesome.com/756f501363.js" crossorigin="anonymous"></script>
+    <title>Barberia Lima</title>
+</head>
+<body>
+    <header class="navbar">   
+        <div class="logo">
+            <img src="./imagenes/logo.jpg" alt="">
+            <p>Barberia Lima</p>
+        </div>
+        <div class="logo_lista">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Profesionales</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input type="text" placeholder="Ingresa aqui tus datos" id="nombreapellido" class="input-padron" required>
+
+            <label for="correoelectronico">Correo electronico</label>
+            <input type="text" placeholder="Ingresa aqui tus datos" id="correoelectronico" class="input-padron" required>
+
+            <label for="telefono">Telefono</label>
+            <input type="text" placeholder="Ingresa aqui tus datos" id="telefono" class="input-padron" required>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="" id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
+
+            <div>
+                <legend>Como le gustaria que lo contactemos</legend>
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contacto" value="email" id="radio-email">
+    
+                <label for="radio-telefono">Telefono</label>
+                <input type="radio" name="contacto" value="telefono" id="radio-telefono">
+    
+                <label for="radio-whatsapp">Whattsap</label>
+                <input type="radio" name="contacto" value="whattsap" id="radio-whatsapp" checked>
+    
+            </div>
+
+            <div>
+                <legend>En cúal horario prefieres ser atendido </legend>
+    
+                <select name="" id="">
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>
+            </div>
+
+
+            <div>
+                <label for=""><input type="checkbox" class="checkbox" checked>Le gustaria recibir novedades de la Barveria Alura </label>
+            </div>
+
+            <input type="submit" value="Enviar formulario"  class="enviar">
+
+        </form>
+
+        <table>
+            <thead>
+                <th>Dia</th>
+                <th>Horario</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>08h ~ 20h</td>
+                </tr>
+
+                <tr>
+                    <td>Miercolles</td>
+                    <td>08h ~ 20h</td>
+                </tr>
+
+                <tr>
+                    <td>Viernes</td>
+                    <td>08h ~ 20h</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+    <footer>
+        <div>  
+            <img src="./imagenes/logo-blanco.png" alt="">
+        </div>
+        <div>
+            <ul class="footer_lista">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Profesionales</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul class="footer_iconos">
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </ul>
+        </div>
+        
+        <div>
+            <p class="copyright">Copyright Barberia Lima 2022</p>
+        </div>
+    </footer>
+
+</body>
+</html>
